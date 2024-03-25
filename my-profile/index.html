@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ummida Maden</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <html>
+      <head></head>
+      <body>
+        <div id="main">
+          <div class="header">
+            <ul id="navbar">
+              <li><a class="active" href="main">Main</a></li>
+              <li><a href="gallery">Gallery</a></li>
+              <li><a href="intro">Intro</a></li>
+              <li><a href="video">Video</a></li>
+              <a href="#" id="close"><i class="far fa-times"></i></a>
+            </ul>
+          </div>
+                <div id="mobile">
+        <i id="bar" class="fas fa-outdent"></i>
+      </div>
+    </div>
+
+
+        <div class="buttons">
+                <h3 id="DarkMode"></h3>
+        <button id="darkButton" class="dark" onclick="darkMode()">
+          <img
+            width="30px"
+            height="25px"
+            src="c:\Users\Админ\Downloads\372-3721399_half-moon-vector-png-transparent-png.png"
+            alt=""
+          />
+        </button>
+        <button id="lightButton" class="light" onclick="lightMode()">
+          <img
+            width="30px"
+            height="25px"
+            src="c:\Users\Админ\Downloads\af5bbba847ef83b61590fab32560.jpeg"
+            alt=""
+          />
+        </button>
+
+        </div>
+
+
+        <div class="responsive">
+          <div class="gallery">
+            <a
+              target="_blank"
+              href="file:///C:/Users/%D0%90%D0%B4%D0%BC%D0%B8%D0%BD/projects/lesson-repo/ummidamaden.github.io/html/asap%20project/asap.html"
+            >
+              <img
+                src="c:\Users\Админ\Pictures\Screenshots\Снимок экрана 2024-03-25 130041.png"
+                alt="Asap"
+                width="600"
+                height="400"
+              />
+            </a>
+            <div class="desc">Asap project website for special app</div>
+          </div>
+        </div>
+
+        <div class="responsive">
+          <div class="gallery">
+            <a
+              target="_blank"
+              href="file:///C:/Users/%D0%90%D0%B4%D0%BC%D0%B8%D0%BD/projects/lesson-repo/ummidamaden.github.io/html/blogs/new-york/new-york.html"
+            >
+              <img
+                src="c:\Users\Админ\Pictures\Screenshots\Снимок экрана 2024-03-25 130528.png"
+                alt="New-York"
+                width="600"
+                height="400"
+              />
+            </a>
+            <div class="desc">New-York City Blog</div>
+          </div>
+        </div>
+
+        <div class="responsive">
+          <div class="gallery">
+            <a
+              target="_blank"
+              href="file:///C:/Users/%D0%90%D0%B4%D0%BC%D0%B8%D0%BD/projects/lesson-repo/ummidamaden.github.io/html/schedule/festival.html"
+            >
+              <img
+                src="c:\Users\Админ\Pictures\Screenshots\Снимок экрана 2024-03-25 130917.png"
+                alt="Festival Plan"
+                width="600"
+                height="400"
+              />
+            </a>
+            <div class="desc">Wine Festival Schedule</div>
+          </div>
+        </div>
+
+        <div class="responsive">
+          <div class="gallery">
+            <a
+              target="_blank"
+              href="file:///C:/Users/%D0%90%D0%B4%D0%BC%D0%B8%D0%BD/projects/lesson-repo/ummidamaden.github.io/html/taskbar/taskbar.html"
+            >
+              <img
+                src="c:\Users\Админ\Pictures\Screenshots\Снимок экрана 2024-03-25 131319.png"
+                alt="Taskbar"
+                width="600"
+                height="400"
+              />
+            </a>
+            <div class="desc">A notes helps you to do plans</div>
+          </div>
+        </div>
+
+      </body>
+
+    <div class="container">
+      <button type="submit" class="btn" onclick="openPopup()">Submit</button>
+      <div class="popup" id="popup">
+        <img src="c:\Users\Админ\Downloads\404-tick.png" />
+        <h2>Thank You!</h2>
+        <p>Your details has been successfully submitted. Thanks!</p>
+        <button type="button" onclick="closePopup()">OK</button>
+      </div>
+    </div>
+
+    <script>
+      let popup = document.getElementById("popup");
+
+      function openPopup() {
+        popup.classList.add("open-popup");
+      }
+      function closePopup() {
+        popup.classList.remove("open-popup");
+      }
+    </script>
+
+
+
+  </head>
+</html>
