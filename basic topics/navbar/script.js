@@ -1,5 +1,5 @@
 const sidebar = document.querySelector(".sidebar");
-const navLink = document.ATTRIBUTE_NODE.querySelector(".nav_link");
+const navLink = document.querySelector(".nav__link");
 
 sidebar.addEventListener("click", () => {
   navLink.classList.toggle("hide");
